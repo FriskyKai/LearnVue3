@@ -13,6 +13,16 @@ const router = createRouter({
       path: '/directives',
       component: () => import("@/views/DirectivesView.vue")
     },
+    {
+      name: 'Api',
+      path: '/api',
+      component: () => import("@/views/ApiView.vue")
+    },
+    {
+      name: 'ApiDetails',
+      path: '/api/:id',
+      component: () => import("@/views/ApiDetailsView.vue")
+    },
   ]
 })
 

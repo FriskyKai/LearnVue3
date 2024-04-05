@@ -8,6 +8,7 @@
       <ul class="d-flex">
         <li class="nav-item"><RouterLink class="nav-link" to="/">Главная</RouterLink></li>
         <li class="nav-item"><RouterLink class="nav-link" to="/directives">Знакомство с директивами</RouterLink></li>
+        <li class="nav-item"><RouterLink class="nav-link" to="/api">Работа с API</RouterLink></li>
       </ul>
     </nav>
   </header>
